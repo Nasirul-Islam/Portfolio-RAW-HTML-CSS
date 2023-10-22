@@ -18,7 +18,7 @@ body {
 
 .button {
     color: white;
-    background-color: #cb2dffcc;
+    background-color: #fd6e0a;
     border-radius: .4rem;
     padding: .9rem 1.5rem;
     margin: 0 .5rem;
@@ -27,9 +27,9 @@ body {
 }
 
 .button:hover {
-    color: #cb2dffcc;
+    color: #fd6e0a;
     background-color: rgb(255, 255, 255);
-    border: 1px solid #cb2dffcc;
+    border: 1px solid #fd6e0a;
 }
 
 .header_bg {
@@ -39,16 +39,34 @@ body {
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin: 1.2rem 0;
     color: gray;
 }
 
 h5 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: black;
     font-weight: 700;
 }
+
+h6 {
+    font-size: 1.2rem;
+    margin: .5rem 0;
+    color: rgb(97, 95, 95);
+}
+
+.sectionHead {
+    margin: 3rem 0 0;
+    padding: 5rem 5rem 0;
+    text-align: center;
+}
+
+h4 {
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
 
 /* nav part start */
 
@@ -65,7 +83,7 @@ nav h2 {
 }
 
 nav .headChar {
-    color: #cb2dffcc;
+    color: #fd6e0a;
 }
 
 nav a {
@@ -107,33 +125,12 @@ main {
     margin: 0 auto;
 }
 
-.about {
-    margin: 3rem 0;
-    padding: 5rem;
-    text-align: center;
-}
-
-.about h4 {
-    font-size: 2rem;
-    margin: 2rem 0;
-}
-
 .aboutInfo {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.whatIDo {
-    margin: 3rem 0;
-    padding: 5rem;
-    text-align: center;
-}
-
-.whatIDo h4 {
-    font-size: 2rem;
-    margin: 2rem 0;
-}
 
 .skills {
     margin: 6rem 0;
@@ -150,4 +147,40 @@ main {
 .skills img {
     width: 40%;
     margin-bottom: 1.5rem;
+}
+
+.summary {
+    display: flex;
+    gap: 2rem;
+    text-align: left;
+}
+
+.summ_btn {
+    margin: 2rem 0;
+}
+
+#footer {
+    display: flex;
+    gap: 2rem;
+    text-align: left;
+    margin-bottom: 5rem;
+}
+
+form {
+    margin-top: 1.2rem;
+}
+
+input,
+textarea {
+    padding: 1.1rem;
+    margin: .3rem 0;
+    font-size: 1.1rem;
+    background-color: #efeaea;
+    border: none;
+    border-radius: .6rem;
+    width: 20rem;
+}
+
+hr {
+    margin: 2rem 0;
 }
