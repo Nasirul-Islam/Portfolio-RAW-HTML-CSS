@@ -119,6 +119,10 @@ nav a {
     left: 7rem;
 }
 
+.blue {
+    color: blue;
+}
+
 /* about part start */
 main {
     max-width: 1200px;
@@ -137,7 +141,6 @@ main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 4rem;
-
 }
 
 .js {
@@ -183,4 +186,74 @@ textarea {
 
 hr {
     margin: 2rem 0;
+}
+
+#space {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+
+@media only screen and (max-width: 425px) {
+    nav {
+        display: none;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutInfo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills {
+        margin: 3rem 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .summary {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        display: none;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutInfo {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .skills {
+        margin: 3rem 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .summary {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+    }
 }
